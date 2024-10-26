@@ -181,43 +181,43 @@ h1 {
 }
 
 table {
-    width: 100%; /* Полная ширина контейнера */
-    border-collapse: collapse; /* Удаляем пробелы между ячейками */
-    margin-top: 20px; /* Отступ сверху от заголовка */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тень для таблицы */
-    border-radius: 10px; /* Радиус закругленных углов */
-    overflow: hidden; /* Убирает полосы закруглений */
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; 
+    overflow: hidden; 
 }
 
 caption {
-    font-size: 24px; /* Размер шрифта заголовка таблицы */
-    margin-bottom: 10px; /* Отступ снизу от заголовка таблицы */
+    font-size: 24px; 
+    margin-bottom: 10px; 
     text-align: left; 
-    padding-left: 10px; /* Отступ для заголовка таблицы */
+    padding-left: 10px; 
 }
 
 th, td {
-    padding: 12px; /* Отступ внутри ячеек */
-    text-align: left; /* Выравнивание текста влево */
-    border-bottom: 1px solid #ddd; /* Линия разделения строк */
+    padding: 12px; 
+    text-align: left; 
+    border-bottom: 1px solid #ddd; 
 }
 
 th {
-    background-color: #ffcccc; /* Цвет фона ячеек заголовков */
-    font-weight: bold; /* Жирный шрифт для заголовков */
-    position: sticky; /* Зависимость заголовка при прокрутке */
-    top: 0; /* Положение заголовка */
-    z-index: 1; /* принадлежность к слоям */
+    background-color: #ffcccc; 
+    font-weight: bold; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1; 
 }
 
 tr:hover {
-    background-color: #d1f0d1; /* Цвет выделения строки при наведении */
+    background-color: #d1f0d1; 
 }
 
 tr:nth-child(even) {
-    background-color: #f2f9f2; /* Цвет фона четных строк */
+    background-color: #f2f9f2; 
 }
 
 tr:nth-child(odd) {
-    background-color: #ffffff; /* Цвет фона нечетных строк */
+    background-color: #ffffff; 
 }
