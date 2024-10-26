@@ -1,0 +1,223 @@
+body {
+    background-color: #9cd5df;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    margin: 0; 
+    padding: 20px; 
+}
+
+.content {
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: auto; 
+}
+
+.content-left {
+    flex: 1; 
+    background-color: #e6e6e6; 
+    margin-right: 40px; 
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px color gray
+}
+
+.content-right {
+    flex: 1; 
+    background-color: #e6e6e6; 
+    margin-left: 40px;
+    padding: 30px; 
+    border-radius: 30px;
+    box-shadow: 0 4px 10px color gray
+}
+
+.image {
+    width: 100%; 
+    height: auto; 
+    border-radius: 15px; 
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    color: #000000; 
+    border-bottom: 2px solid #000000; 
+    padding-bottom: 10px; 
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #000000; 
+    margin-top: 20px; 
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #000000; 
+}
+
+ul, ol {
+    margin-left: 20px; 
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #000000; 
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f0f0f0; 
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #333; 
+    padding: 10px;
+}
+
+.header a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #fff; 
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    background-color: #c0c0c0; 
+    padding: 20px; 
+}
+.block {
+    width: 300px; 
+    height: 200px; 
+    background-color:#ff0000; 
+    
+}
+.beyonce {
+    width: 300px; 
+}
+
+.container-2 {
+    background-color: #c0c0c0; 
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-2 {
+    background-color: #000000; 
+    width: 200px;
+    height: 200px;
+}
+
+.container-3 {
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;
+    border: 2px solid #333;
+}
+
+.block-3 {
+    background-color: #ff0000; 
+    width: 200px;
+    height: 200px;
+    margin: 10px; 
+}
+
+.container-4 {
+    position: relative; 
+    width: 300px; 
+    height: 300px; 
+    margin: 50px auto; 
+    background-color: white;
+}
+.square {
+    position: absolute; 
+    width: 100px; 
+    height: 100px; 
+    border: 5px solid transparent; 
+}
+.square1 {
+    top: 30px; 
+    left: 30px; 
+    border-color: red; 
+}
+.square2 {
+    top: 100px; 
+    left: 100px; 
+    border-color: green; 
+}
+.square3 {
+    top: 170px; 
+    left: 170px; 
+    border-color: blue; 
+}
+
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+h1 {
+    font-size: 36px;
+    color: #000000; 
+}
+
+h1 {
+    font-size: 36px;
+    color: #000; 
+    text-align: center;
+}
+
+table {
+    width: 100%; /* Полная ширина контейнера */
+    border-collapse: collapse; /* Удаляем пробелы между ячейками */
+    margin-top: 20px; /* Отступ сверху от заголовка */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тень для таблицы */
+    border-radius: 10px; /* Радиус закругленных углов */
+    overflow: hidden; /* Убирает полосы закруглений */
+}
+
+caption {
+    font-size: 24px; /* Размер шрифта заголовка таблицы */
+    margin-bottom: 10px; /* Отступ снизу от заголовка таблицы */
+    text-align: left; 
+    padding-left: 10px; /* Отступ для заголовка таблицы */
+}
+
+th, td {
+    padding: 12px; /* Отступ внутри ячеек */
+    text-align: left; /* Выравнивание текста влево */
+    border-bottom: 1px solid #ddd; /* Линия разделения строк */
+}
+
+th {
+    background-color: #ffcccc; /* Цвет фона ячеек заголовков */
+    font-weight: bold; /* Жирный шрифт для заголовков */
+    position: sticky; /* Зависимость заголовка при прокрутке */
+    top: 0; /* Положение заголовка */
+    z-index: 1; /* принадлежность к слоям */
+}
+
+tr:hover {
+    background-color: #d1f0d1; /* Цвет выделения строки при наведении */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f9f2; /* Цвет фона четных строк */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Цвет фона нечетных строк */
+}
